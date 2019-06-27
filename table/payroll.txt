@@ -1,0 +1,11 @@
+CREATE TABLE payroll(
+payroll_id int unsigned not null AUTO_INCREMENT,
+    employee_id int(100) not null,
+    basic varchar(100) not null,
+    allowance varchar(100) not null,
+    bonus varchar(100) not null,
+    total varchar(100) not null,
+    primary key(payroll_id)
+
+
+);

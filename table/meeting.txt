@@ -1,0 +1,10 @@
+CREATE TABLE meeting(
+meeting_id int unsigned not null AUTO_INCREMENT,
+    buyer_id int(100) not null,
+    meeting_place varchar(100) not null,
+    date date not null,
+    time time not null,
+    primary key(meeting_id)
+
+
+);

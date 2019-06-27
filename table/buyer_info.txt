@@ -1,0 +1,10 @@
+CREATE TABLE buyer_info(
+buyer_id int unsigned not null AUTO_INCREMENT,
+    product_id int(100) not null,
+    buyer_name varchar(100) not null,
+    company_address varchar(100) not null,
+    purchase_quantity varchar(100) not null,
+    primary key(buyer_id)
+
+
+);

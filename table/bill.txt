@@ -1,0 +1,10 @@
+CREATE TABLE bill(
+bill_id int unsigned not null AUTO_INCREMENT,
+    ordering_id int(100) not null,
+    cost int(100) not null,
+    paid int(100) not null,
+    due int(100) not null,
+    primary key(bill_id)
+
+
+);

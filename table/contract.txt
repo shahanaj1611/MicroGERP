@@ -1,0 +1,11 @@
+CREATE TABLE contract(
+contract_id int unsigned not null AUTO_INCREMENT,
+    employee_id int(100) not null,
+    buyer_id int(100) not null,
+    product_id int(100) not null,
+    issue_date date not null,
+    deadline date not null,
+    primary key(contract_id)
+
+
+);

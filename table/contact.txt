@@ -1,0 +1,10 @@
+CREATE TABLE contact(
+contact_id int unsigned not null AUTO_INCREMENT,
+    emloyee_id int(100) not null,
+    working_address varchar(100) not null,
+    email varchar(100) not null,
+    mobile varchar(100) not null,
+    primary key(contact_id)
+
+
+);

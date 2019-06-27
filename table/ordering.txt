@@ -1,0 +1,10 @@
+CREATE TABLE ordering(
+ordering_id int unsigned not null AUTO_INCREMENT,
+    product_id int(100) not null,
+    ordering_item varchar(100) not null,
+    ordering_date date not null,
+    arrival_date date not null,
+    primary key(ordering_id)
+
+
+);

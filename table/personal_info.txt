@@ -1,0 +1,7 @@
+CREATE TABLE personal_info(
+employee_id int unsigned not null AUTO_INCREMENT,
+    nid int(100) not null,
+    primary key(employee_id)
+
+
+);

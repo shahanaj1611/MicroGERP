@@ -1,0 +1,12 @@
+CREATE TABLE registion(
+id int unsigned not null AUTO_INCREMENT,
+    fullname varchar(100) not null,
+    username varchar(100) not null,
+    password varchar(35) not null,
+    mobile varchar(20) not null,
+    date date not null,
+    primary key(id),
+    UNIQUE key(username)
+
+
+);
